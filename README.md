@@ -1,145 +1,304 @@
-# ◈ MindScape v52 — Illuminated Sigil Codex
+# ◈ MindScape v55 — Illuminated Sigil Codex
 
-> **A single-file exact-text RPG codex by Matthew Kowalski / Luminosity.**  
-> 111kb of SVG sigils, DOS commands, atlas logic, bestiary sparks, dice, character tools, and illuminated book magic.
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   M I N D S C A P E                                              ║
-║   v52 // Illuminated Sigil Codex                                 ║
-║                                                                  ║
-║   one file · offline · indexed · exact-text · icon-charmed        ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-## ✦ What This Is
-
-**MindScape** is a compressed browser grimoire: part RPG sourcebook, part illuminated manuscript, part DOS command deck, part cosmic toybox.
-
-It is built as a **single self-contained `index.html`** with no install process, no server requirement, and no asset folder. Open it and the codex wakes up.
-
-Inside the tiny file lives:
-
-- deterministic SVG sigil icons
-- exact-text reader pages
-- clickable index / section navigation
-- atlas + bestiary structures
-- dice and character tools
-- DOS-style command line
-- themes, focus mode, EGA mode, light mode, big text mode
-- compressed mythic interface architecture
-- little clickable symbols everywhere, because the machine should feel alive
-
-## ✦ The Miracle
-
-The whole thing is around:
+> **A single-file exact-text RPG codex by Matthew Kowalski and Friends / Luminosity.**  
+> A compressed fantasy machine: book, atlas, bestiary, dice table, command deck, sigil engine, and mobile-ready illuminated manuscript in one `index.html`.
 
 ```
-111 KB
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║   M I N D S C A P E   v55                                          ║
+║   ILLUMINATED SIGIL CODEX                                          ║
+║                                                                    ║
+║   exact text · SVG sigils · RPG tools · DOS deck · atlas · mobile   ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
 ```
 
-That is the charm.
+## ✦ Live Artifact
 
-Not a giant framework.  
-Not a pile of dependencies.  
-Not an app pretending to be a website.
+Open the codex:
 
-Just one cyber-illuminated HTML artifact full of motion, structure, magic, and readable book-energy.
-
-## ✦ Features
-
-### ◈ Single File Codex
-
-Everything is packed into one page:
-
-```
+```text
 index.html
 ```
 
-Drop it on GitHub Pages, open it locally, archive it, remix it, send it through the future.
+The whole project is self-contained.  
+No build step.  
+No install.  
+No server required.  
+No external image folder.  
+No framework.
 
-### ◈ SVG Icon System
+Just open the file and enter MindScape.
 
-MindScape uses reusable inline SVG glyph logic instead of bloated images.  
-The little circles are sigil-buttons, not decoration.
+## ✦ What This Is
 
-They act like:
+**MindScape v55** is an illuminated browser RPG codex built as a single-file web artifact.
+
+It merges:
+
+- exact-text book reader
+- deterministic SVG circle sigils
+- fast section navigation
+- clickable cross-reference index
+- atlas lookup tables
+- creature bestiary
+- dice and HP tools
+- character / oracle utilities
+- DOS-style command line
+- EGA / CRT / light / big-text / focus modes
+- mobile containment fixes for small screens
+
+This is not just a webpage.  
+It is a tiny world-machine.
 
 ```
-map markers
-chapter sparks
-creature seals
+book      → reader
+symbol    → button
+command   → action
+page      → chamber
+index     → spell-map
+creature  → encounter
+browser   → console
+```
+
+## ✦ Size
+
+Current build:
+
+```text
+118,815 bytes
+≈ 118.8 KB
+≈ 116.0 KiB
+```
+
+That is the fun of it.
+
+A whole RPG codex, interface, visual system, and tool layer packed into a file small enough to feel like a demoscene object.
+
+## ✦ Major Systems
+
+### ◈ Exact-Text Reader
+
+The reader preserves the book as an indexed stream of pages.  
+It can run in exact mode or linked mode, allowing the work to be read as a book or explored as a hypertext codex.
+
+Key reader features:
+
+```text
+page jump
+fast contents
+linked terms
+exact text mode
+focus reading mode
+print support
+mobile page containment
+```
+
+### ◈ Deterministic SVG Sigils
+
+The little circular icons are generated from reusable SVG math.
+
+Each sigil is derived from a label through deterministic patterning:
+
+```text
+label → hash → palette → rings → rays → ornament → inner symbol
+```
+
+That means the interface gets beautiful symbolic variation without image files.
+
+The sigils function as:
+
+```text
+section seals
 tool charms
-navigation anchors
+navigation sparks
+atlas markers
+index glyphs
+creature emblems
 reader ornaments
 ```
 
-### ◈ Indexed Reader
+### ◈ DOS Command Deck
 
-The work is built for movement.
+MindScape includes a command line because language should become action.
 
-You can jump through the codex by section, page, term, creature, tool, and symbol instead of wandering blind through a wall of text.
+Try commands like:
 
-### ◈ DOS Deck
-
-The command box gives the whole thing that old-machine ritual feeling:
-
+```text
+help
+page 10
+search Fairy
+term Wolf
+random page
+random creature
+random spell
+roll d6
+roll d10
+roll d100
+hp
+exact
+linked
+light
+crt
+ega
+focus
+oracle
 ```
-> help
-> map
-> roll
-> character
-> fairy
-> top
-> bottom
+
+### ◈ Atlas
+
+The atlas turns the codex into searchable RPG infrastructure.
+
+It includes core categories such as:
+
+```text
+races
+clans
+skills
+spells
+mutant abilities
+creatures
+gear
+extra world terms
 ```
 
-Language becomes action.  
-A word becomes a door.
+### ◈ Bestiary
 
-### ◈ RPG Tools
+The creature codex preserves the creature archive in searchable form.
 
-MindScape includes practical play-tools wrapped in mythic UI:
+Summon a creature manually, filter the list, or let the codex choose one.
 
+```text
+Fairy
+Wolf
+Thrasher
+Queen Thrasher
+T rex
+Spirit
+Elemental
+Biometal
+DarkSpider
+Water Zipper
+and many more
 ```
+
+### ◈ Table Tools
+
+Folded utilities keep the interface powerful without cluttering the reading experience.
+
+Included tools:
+
+```text
 dice roller
-character sheet elements
-bestiary cards
-atlas panels
-tool drawers
-search / index movement
+HP helper
+oracle
+sigil forge
+character / table utilities
+random term and page actions
 ```
 
 ### ◈ Theme Modes
 
-The codex can shift skins:
+MindScape can shift form:
 
-```
-dark illuminated codex
+```text
+Illuminated dark codex
+Light manuscript mode
+CRT mode
 EGA / DOS mode
-light manuscript mode
-big-text mode
-focus reading mode
-CRT atmosphere
+Big-text mode
+Focus mode
 ```
 
-## ✦ Running It
+## ✦ Mobile Build
 
-Open the file directly:
+This version includes the mobile overflow repair pass.
+
+The interface was hardened for small screens by tightening:
+
+```text
+nav wrapping
+hero title sizing
+grid collapse
+reader width
+sidebar behavior
+bottom rail layout
+drawer position
+long word wrapping
+preformatted text containment
+SVG / canvas scaling
+page chrome
+buttons and command lines
+```
+
+The result: the codex remains usable and beautiful on phone-sized screens instead of spilling sideways.
+
+## ✦ Sections
+
+MindScape v55 is organized around the core book structure:
+
+```text
+Story & World
+Core Rules
+Races
+Clans
+Skills
+Spells
+Mutant Abilities
+Equipment & Items
+Creature Codex
+Shout Outs & Index
+```
+
+## ✦ How To Use
+
+Open the codex and click **Enter MindScape**.
+
+Then explore through:
+
+```text
+Sections
+Jump Straight In
+World Keys
+The Book
+Atlas
+Index
+Bestiary
+Circle Glyphs
+Table Tools
+Command Line
+```
+
+A good first path:
+
+```text
+1. Enter MindScape
+2. Open Sections
+3. Start Story
+4. Jump to Races or Clans
+5. Search Fairy, Wolf, Magic, or Thin Gold
+6. Roll dice
+7. Summon a creature
+8. Switch to EGA mode
+9. Enter focus mode and read
+```
+
+## ✦ Local Use
+
+Open directly:
 
 ```bash
 index.html
 ```
 
-Or serve it locally:
+Or run a tiny local server:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open:
+Then visit:
 
 ```text
 http://localhost:8000
@@ -147,62 +306,51 @@ http://localhost:8000
 
 ## ✦ GitHub Pages
 
-For GitHub Pages, place this in the repo root:
+Recommended repo layout:
 
 ```text
-index.html
-README.md
+/
+├── index.html
+├── README.md
+└── screenshot.png   optional
 ```
 
-Then enable Pages from:
+GitHub Pages setup:
 
 ```text
 Settings → Pages → Deploy from branch → main → root
 ```
 
-## ✦ Controls
+## ✦ Design Notes
 
-The interface is designed to be discovered, but the important idea is simple:
+MindScape is built around compression without deadness.
 
-```
-click sigils
-use the index
-use command words
-jump top / bottom
-open tools only when needed
-read the book as a living codex
-```
+The goal is not minimalism as emptiness.  
+The goal is **density**.
 
-## ✦ Philosophy
+Every byte should do work.
 
-MindScape is not just a web reader.
-
-It is a small proof that a browser file can still be a **place**.
-
-A place with books inside it.  
-A place with monsters inside it.  
-A place with dice inside it.  
-A place with icons, signals, maps, spells, jokes, and machinery.
-
-A tiny world.  
-A pocket RPG engine.  
-A neon manuscript.  
-A goblin cathedral in 111kb.
-
-```
-language → command
-symbol   → doorway
-page     → room
-reader   → player
-book     → machine
+```text
+small file
+large world
+fast navigation
+lush surface
+useful tools
+exact book
+symbolic interface
 ```
 
-## ✦ Credits
+The browser becomes a book.  
+The book becomes a map.  
+The map becomes an RPG table.  
+The RPG table becomes a little machine full of glowing doors.
+
+## ✦ Provenance
 
 Created by:
 
 ```text
-Matthew Kowalski / Luminosity
+Matthew Kowalski and Friends / Luminosity
 ```
 
 Project lineage:
@@ -210,22 +358,24 @@ Project lineage:
 ```text
 AIpunk
 cyberdelic codices
-terminal cinema
 single-file web artifacts
+terminal cinema
+RPG sourcebooks
 DOS toybox enchantment
+illuminated manuscript interfaces
 ```
 
-Links:
+Related links:
 
 ```text
 LiveJournal: https://luminosity.livejournal.com
 Goodreads:   https://www.goodreads.com/author/list/5233347.Matthew_Kowalski
-CashApp:     $unixarcade
+Cash App:    $unixarcade
 ```
 
 ## ✦ Support
 
-This work comes from decades of writing, code, weird machines, symbol-play, RPG dreams, and electric stubbornness.
+MindScape is part of a larger body of books, code, web films, AIpunk artifacts, and strange glowing machines.
 
 To support the work:
 
@@ -234,13 +384,13 @@ $unixarcade
 ```
 
 Buy the books.  
-Share the pages.  
-Open the codex.  
-Let the little SVG circles glow.
+Share the codex.  
+Open the file.  
+Send the little sigils into the world.
 
-## ✦ License / Use
+## ✦ Use / Attribution
 
-This is an art-code literary artifact by Matthew Kowalski / Luminosity.
+This is an art-code literary RPG artifact by Matthew Kowalski and Friends / Luminosity.
 
 Share links.  
 Preserve attribution.  
@@ -250,15 +400,17 @@ Do not flatten the weirdness.
 ## ✦ Final Invocation
 
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   THE FILE IS SMALL                                              ║
-║   THE WORLD IS NOT                                               ║
-║                                                                  ║
-║   OPEN THE CODEX                                                 ║
-║   CLICK THE SIGILS                                               ║
-║   ROLL THE DICE                                                  ║
-║   ENTER THE MINDSCAPE                                            ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║   THE FILE IS SMALL                                                ║
+║   THE WORLD IS NOT                                                 ║
+║                                                                    ║
+║   OPEN THE CODEX                                                   ║
+║   CLICK THE SIGILS                                                 ║
+║   SEARCH THE INDEX                                                 ║
+║   SUMMON THE CREATURES                                             ║
+║   ROLL THE DICE                                                    ║
+║   ENTER THE MINDSCAPE                                              ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
 ```
